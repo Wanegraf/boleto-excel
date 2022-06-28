@@ -74,9 +74,10 @@ namespace Boletos
                 { "12802855000115", "ASA BRANCA I" },
                 { "12802844000135", "ASA BRANCA II" },
                 { "12802835000144", "ASA BRANCA III" },
-                { "12802866000103", "NOVA EURUS IV" } };
+                { "12802866000103", "NOVA EURUS IV" } 
+                { "31449173000115", "VILA MARANHÃO" }};
 
-            var listaEolicas = new List<string>(new string[] { "PARA(I|Í)SO.*NORDESTE", "SANTA MARIA", "SANTA HELENA", "SANTO URIEL", "S(A|Ã)O BENTO DO NORTE I*", "S(A|Ã)O MIGUEL I*",
+            var listaEolicas = new List<string>(new string[] { "PARA(I|Í)SO.*NORDESTE", "VILA MARANH(Ã/A)O", "SANTA MARIA", "SANTA HELENA", "SANTO URIEL", "S(A|Ã)O BENTO DO NORTE I*", "S(A|Ã)O MIGUEL I*",
                 "GUAJIRU", "JANGADA", "POTIGUAR", "CUTIA", "MARIA HELENA?", "ESPERAN(Ç|C)A DO NORDESTE", "BOA VISTA S/A", "FAROL", "OLHO D'?(Á|A)GUA", "ASA BRANCA I*", "NOVA EURUS IV" });
 
             foreach (var pdfPath in pdfPaths)
